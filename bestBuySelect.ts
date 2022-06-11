@@ -8,7 +8,7 @@ interface Options {
     // if no url is supplied, we will provide one or use the one given here
 }
 
-export class bestBuy {
+export class bestBuySelect {
     driver: WebDriver;
     url: string = "https://www.bestbuy.com/";
 

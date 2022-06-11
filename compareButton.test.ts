@@ -1,5 +1,5 @@
 import {Builder, By, Capabilities, WebDriver, until} from 'selenium-webdriver'
-import { bestBuySelect } from './bestBuySelect'
+import {bestBuySelect} from './bestBuySelect'
 
 const chromedriver = require('chromedriver')
 
