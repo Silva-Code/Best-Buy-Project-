@@ -10,6 +10,7 @@ test('SortBy', async () => {
     await driver.findElement(By.name('st')).sendKeys("cellphone stand\n")
     await driver.findElement(By.xpath('//button[@class="header-search-button"]')).click()
     await driver.findElement(By.xpath('//*[@id="sort-by-select"]/option[3]')).click()
+    //Locator for Sort By: Price Low to High
     await driver.sleep(4000)
 })
 afterAll(async () => {
