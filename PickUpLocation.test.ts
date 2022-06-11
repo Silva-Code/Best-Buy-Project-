@@ -4,7 +4,7 @@ const chromedriver = require('chromedriver');
 
 const driver: WebDriver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
-test('async await functionality', async () => {
+test('PickUp', async () => {
     await driver.get('https://www.bestbuy.com')
     await driver.wait(until.elementLocated(By.name('st')))
     await driver.findElement(By.name('st')).sendKeys("cellphone stand\n")
